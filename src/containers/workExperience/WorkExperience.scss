@@ -1,11 +1,25 @@
 .experience-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-template-columns: repeat(2, minmax(190px, 1fr));
   gap: 1rem 1rem;
+  justify-content: center;
+  //position: center;
+}
+
+.skills-cards-div {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(260px, 1fr));
+  gap: 1rem 1rem;
+  justify-content: center;
+  //position: center;
+}
+
+.experience-holder{
+  justify-content: center;
 }
 
 .experience-heading {
-  font-size: 56px;
+  font-size: 26px;
   font-weight: 400;
 }
 
@@ -15,6 +29,7 @@
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
+  max-width: 1140px;
 }
 
 .experience-container > * {

@@ -22,16 +22,55 @@
 .skill {
   line-height: 3.5vw;
 }
+
+.skill-ba {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(190px, 1fr));
+  gap: 1rem 1rem;
+  justify-content: center;
+  //position: center;
+}
 .skill-bars {
   font-size: 28px;
   width: 40%;
 }
+//.skills-container {
+//  display: flex;
+//  width: 90%;
+//  padding: 20px 10px;
+//  margin: 0px auto;
+//  margin-top: 2rem;
+//}
+
+.skill-holder{
+  margin-bottom: 3rem !important;
+}
+
+.skill-cards-div {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(190px, 1fr));
+  gap: 1rem 1rem;
+  justify-content: center;
+  //position: center;
+}
+
 .skills-container {
   display: flex;
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
+  max-width: 1140px;
+}
+
+.skill-circular-progress {
+  position: relative;
+  font-size: 16px;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 0 .1em .1em 0;
+  background-color: inherit;
 }
 .skills-container > * {
   flex: 1;

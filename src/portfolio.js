@@ -158,36 +158,40 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design (React/Angular/React-Native)", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend (MongoDB)",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "AWS/GCP/Cloud Computing",
-      progressPercentage: "75%"
+      Stack: "Java", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Python",
-      progressPercentage: "85%"
+      progressPercentage: "80%"
     },
     {
-      Stack: "Jenkins/Ansible",
-      progressPercentage: "75%"
+      Stack: "Scala",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Golang",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "AWS/GCP",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Kubernetes",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "React",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Jenkins",
+      progressPercentage: "85%"
     },
     {
       Stack: "Docker",
       progressPercentage: "80%"
-    },
-    {
-      Stack: "Terraform",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -199,35 +203,57 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Associate Software Engineer",
-      company: "UST BlueConch Technologies Pvt. Ltd.",
-      companylogo: require("./assets/images/bct.jpeg"),
-      date: "August 2020 – Present",
-      desc: "I am currently working as an SRE for Uplight, where I automate tasks, take care of the Cloud Infrastructure and make deployments smooth and easy.",
+      role: "Software Engineer ||",
+      company: "Safaricom PLC",
+      date: "Feb 2022 – Present",
+      desc: "Working on Integrations to the M-PESA Financial Service Ecosystem.",
       descBullets: [
-        "Working as the lead in the GCP Migration for Orchestrate Engineering product, where I see and manage the infrastructure that needs to be set up and how to migrate the data and products.",
-        "Helped in solving a critical production issue that saved UPLIGHT $200K per month cost increase",
-        "I wrote a script to add tags to all the instances be it EC2, S3, Lambda, or DynamoDB, which helped us monitor costs better and eventually helped save around $10k per year.",
-        "I also made various monitoring dashboards in Looker and Cloudwatch."
-      ]
+        "Create services that allow connectivity among M-Pesa Ecosystem and its partners",
+      ],
+      education: false
+    },
+    {
+      role: "Software Engineer (Safaricom) ",
+      company: "TechSavannah",
+      date: "Feb 2021 - Jan 2022",
+      desc: "Built and Maintained the M-pesa Business BillManager Platform.",
+      descBullets: [
+        "Successfully created a CICD pipeline that significantly reduced deployment to production from 1 hr to 10min",
+        "Optimized system and fix bugs",
+      ],
+      education: false
+    },
+    {
+      role: "Software Engineer ",
+      company: "Skylab Systems",
+      date: "Jan 2020 - Jan 2021",
+      desc: "Built and Maintained  Apptivate System.",
+      descBullets: [
+        "Optimized system and fix bugs",
+      ],
+      education: false
     },
     {
       role: "Software Engineer Intern",
-      company: "GoVocal.AI",
-      companylogo: require("./assets/images/govocal.jpeg"),
-      date: "May 201p – June 2020",
-      desc: "I have been working as a Software Developer with in-demand skills and technologies. I have made many Voice Apps and also worked on Mobile Apps using React-Native.",
+      company: "Skylab Systems",
+      date: "Oct 2019 - Dec 2019",
+      desc: "Maintained backend and frontend application for Malipo System.",
       descBullets: [
-        "Developed software lifecycle products from vision through successful deployment.",
-        "Successfully delivered Voice App for Tata Sky on Actions on Google (Google Assistant) and Amazon Alexa (Alexa Skill) into Production.",
-        "Successfully upgraded an android app, Quiddity using React Native. It is a book summaries app where you can read and listen to the summaries of the Great and Best Selling books for free.",
-        "Reviewed, monitored, and repaired any changed code for quality, adherence to standards, and potential performance effects on compatible systems.",
-        "Managed software documentation by testing and validating the accuracy of all new applications to ensure user‐friendliness and productivity.",
-        "Worked with Amazon AWS Lambda and Cloud‐watch for the deployment and testing of the Voice Apps in Production.",
-        "Wrote the request logger for Systematically logging the request and debugging the errors using Winston.",
-        "Designed new software applications by using object‐oriented languages like JavaScript.",
-        "Altered, updated, and enhanced existing systems and applications after performing troubleshooting measures to determine the issue."
-      ]
+        "Optimized system and fix bugs on the Mobile App",
+        "Created a website for admin access for Malipo System"
+      ],
+      education: false
+    },
+    {
+      role: "Bachelor of Science, Electronic and Computer Engineering",
+      company: "Jomo Kenyatta University of Agriculture and Technology",
+      date: "Sep 2014 - Dec 2019 (Graduated 2022)",
+      desc: "Undergraduate degree in Computer Engineering.",
+      descBullets: [
+        "Optimized system and fix bugs on the Mobile App",
+        "Created a website for admin access for Malipo System"
+      ],
+      education: true
     }
   ]
 };
