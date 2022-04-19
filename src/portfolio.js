@@ -11,7 +11,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Mayank Khanna",
+  username: "Job Onyango",
   title: "Hi all, I'm Mayank",
   subTitle: emoji(
     "A passionate software developer, problem solver, and technology enthusiast who loves learning new things. A quick learner with zeal and motivation to succeed, I have experience working as a Full Stack Developer, Voice App Developer, and DevOps Engineer (SRE). I look forward to opportunities that will help me grow and where I can contribute to the growth of the organization with my technical and management skills."

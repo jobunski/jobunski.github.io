@@ -17,13 +17,14 @@
 }
 
 .dark-menu li a:hover {
-  background-color: $buttonColor !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid #73767e;
 }
 
 .header {
   background-color: $lightBackground1;
   max-width: 100%;
-  padding: 15px 20px;
+  padding: 10px 20px;
   margin: 0px auto;
 }
 
@@ -61,7 +62,7 @@
 }
 
 .header .logo-name {
-  font-family: "Agustina Regular";
+  font-family: "Montserrat";
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
