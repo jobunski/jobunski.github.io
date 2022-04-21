@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*@import 'bootstrap/dist/css/bootstrap.css';*/
+
 @font-face {
   font-family: "Agustina Regular";
   font-style: normal;
@@ -12,6 +15,7 @@
     url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
   font-display: swap;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

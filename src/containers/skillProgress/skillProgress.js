@@ -1,14 +1,12 @@
 import React from "react";
-import {CircularProgressbar} from "react-circular-progressbar";
+import {buildStyles, CircularProgressbar} from "react-circular-progressbar";
 import 'react-circular-progressbar/dist/styles.css';
 import "./Progress.scss";
-import {illustration, techStack} from "../../portfolio";
+import "../Main.scss"
+import {techStack} from "../../portfolio";
 import {Fade} from "react-reveal";
-import Build from "../../assets/lottie/build";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 
 export default function StackProgress() {
-  const percentage = 66;
   if (techStack.viewSkillBars) {
     return (
       <Fade bottom duration={1000} distance="20px">
@@ -17,13 +15,17 @@ export default function StackProgress() {
             <h3 className="skills-heading">Proficiency</h3>
             <div className="skill-cards-div">
               {techStack.experience.map((exp, i) => {
-                const progressStyle = {
-                  width: exp.progressPercentage
-                };
                 return (
                     <div key={i} className="skill-circular-progress">
-                      <CircularProgressbar  value={exp.progressPercentage} text={`${exp.progressPercentage}%`} />;
-                      <p>{exp.Stack}</p>
+                      <div>
+                        <CircularProgressbar  value={exp.progressPercentage} text={`${exp.progressPercentage}%`} styles={buildStyles(
+                            {
+                              pathColor: '#feb653',
+                              textColor: '#ffffff'
+                            }
+                        )} />
+                        <h5 className="text-transform text-center ">{exp.Stack}</h5>
+                      </div>
                     </div>
                 );
               })}

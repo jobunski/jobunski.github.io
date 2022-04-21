@@ -12,28 +12,20 @@ const illustration = {
 
 const greeting = {
   username: "Job Onyango",
-  title: "Hi all, I'm Mayank",
-  subTitle: emoji(
-    "A passionate software developer, problem solver, and technology enthusiast who loves learning new things. A quick learner with zeal and motivation to succeed, I have experience working as a Full Stack Developer, Voice App Developer, and DevOps Engineer (SRE). I look forward to opportunities that will help me grow and where I can contribute to the growth of the organization with my technical and management skills."
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1SY4jkAAlKny1kTRT-5BiH1sbFcoI36zO/view?usp=sharing", // Set to empty to hide the button
+  start:"Hi There!",
+  title: "I'm Job Owino",
+  subTitle: "I am a Nairobi based Software Engineer passionate about making human life simpler using software",
+  resumeLink: "https://drive.google.com/file/d/1KLv307GWEvtgfeRVBTwzTftB5wD3oIWB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/khanna98",
-  linkedin: "https://www.linkedin.com/in/khanna98/",
-  gmail: "mkhanna98.dev@gmail.com",
-  gitlab: "https://gitlab.com/mayank.khanna.98",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  instagram: "https://instagram.com/_mayankkhanna",
-  stackoverflow: "https://stackoverflow.com/users/10852834/mayank-khanna",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/jobunski",
+  linkedin: "https://www.linkedin.com/in/job-onyango-owino/",
+  gmail: "jonyango003@gmail.com",
+  spotify:"https://open.spotify.com/user/nkt3snih6lprtuywuh48dnbzp?si=oD6DBIOeQ1iOQylz7JRYHA&utm_source=copy-link",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -159,39 +151,35 @@ const techStack = {
   experience: [
     {
       Stack: "Java", //Insert stack or technology you have experience in
-      progressPercentage: "95%" //Insert relative proficiency in percentage
+      progressPercentage: 95 //Insert relative proficiency in percentage
     },
     {
       Stack: "Python",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "Scala",
-      progressPercentage: "50%"
+      progressPercentage: 80
     },
     {
       Stack: "Golang",
-      progressPercentage: "60%"
+      progressPercentage: 65
+    },
+    {
+      Stack: "Scala",
+      progressPercentage: 55
     },
     {
       Stack: "AWS/GCP",
-      progressPercentage: "60%"
+      progressPercentage: 60
     },
     {
-      Stack: "Kubernetes",
-      progressPercentage: "80%"
+      Stack: "JavaScript",
+      progressPercentage: 60
     },
     {
       Stack: "React",
-      progressPercentage: "50%"
+      progressPercentage: 65
     },
     {
-      Stack: "Jenkins",
-      progressPercentage: "85%"
-    },
-    {
-      Stack: "Docker",
-      progressPercentage: "80%"
+      Stack: "NodeJS",
+      progressPercentage: 50
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -478,9 +466,8 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all."
+  title: "Get In Touch",
+  subtitle: "Dev-Portfolio Fin. Thanks for reaching in my email section.If you are not interested in the nearest bit checkout my well curated playlist. All opinions are mine."
 };
 
 // Twitter Section

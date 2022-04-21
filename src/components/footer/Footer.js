@@ -5,12 +5,12 @@ import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Footer() {
-  const {isDark} = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by Mayank Khanna")}
+        <p className="dark-mode footer-text">
+          <span>&copy;</span>
+            {new Date().getFullYear()}
         </p>
       </div>
     </Fade>

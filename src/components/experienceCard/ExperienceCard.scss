@@ -32,6 +32,10 @@
   background-color: #feb653;
 }
 
+.resume-box p{
+  font-size: 16px;
+}
+
 .fa-briefcase::before {
   content: "\f0b1";
 }
@@ -55,7 +59,7 @@
   display: inline-block;
   margin-bottom: 12px;
   border-radius: 20px;
-  font-weight: 600;
+  font-weight: 400;
   background-color: #252525;
   opacity: .8;
 }
@@ -72,7 +76,7 @@
   border-left: 1px solid #333;
 }
 .resume-box h5 {
-  font-size: 18px;
+  font-size: 16px;
   margin: 7px 0 10px;
 }
 
@@ -129,7 +133,7 @@
   padding: 1.5rem;
   margin: 0;
   color: $lightBackground1;
-  font-size: 25px;
+  font-size: 18px;
   text-align: center;
   font-weight: 700;
   text-overflow: ellipsis;
@@ -154,8 +158,8 @@
 .experience-text-role {
   text-align: center;
   color: $textColor;
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: 400;
+  font-size: 20px;
   margin: 0px;
   padding-top: 1.5rem;
   line-height: normal;
@@ -166,7 +170,7 @@
 .experience-text-date {
   text-align: center;
   color: $textColor;
-  font-size: 20px;
+  font-size: 24px;
   margin: 0px;
   padding-top: 1rem;
   font-weight: 600;

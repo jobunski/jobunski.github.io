@@ -66,12 +66,15 @@
 .skill-circular-progress {
   position: relative;
   font-size: 16px;
-  width: 200px;
-  height: 200px;
+  width: 125px;
+  height: 125px;
   float: left;
   margin: 0 .1em .1em 0;
   background-color: inherit;
+  margin-bottom: 3rem !important;
 }
+
+
 .skills-container > * {
   flex: 1;
   margin-bottom: 30px;
