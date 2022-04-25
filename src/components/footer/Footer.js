@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="footer-div">
         <p className="dark-mode footer-text">
           <span>&copy;</span>
-            {new Date().getFullYear()}
+          {new Date().getFullYear()}
         </p>
       </div>
     </Fade>

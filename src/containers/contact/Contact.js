@@ -15,7 +15,7 @@ export default function Contact() {
             <div className="contact-div-body">
               <h1 className="heading contact-title">{contactInfo.title}</h1>
               <div className="contact-div-subtitle">
-                <p className= "dark-mode contact-subtitle">
+                <p className="dark-mode contact-subtitle">
                   {contactInfo.subtitle}
                 </p>
               </div>
@@ -24,7 +24,7 @@ export default function Contact() {
         </div>
       </div>
       <div>
-        <Footer/>
+        <Footer />
       </div>
     </Fade>
   );

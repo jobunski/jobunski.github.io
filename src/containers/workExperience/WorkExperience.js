@@ -12,9 +12,10 @@ export default function WorkExperience() {
       <div id="experience">
         <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
-            <div className="experience-holder" >
-              <h3 className="experience-heading ">Engineering
-                Experience <span>&amp;</span> Education</h3>
+            <div className="experience-holder">
+              <h3 className="experience-heading ">
+                Engineering Experience <span>&amp;</span> Education
+              </h3>
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
                   return (

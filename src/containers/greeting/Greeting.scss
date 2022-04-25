@@ -41,7 +41,6 @@
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
-
 }
 
 .greeting-text {
@@ -49,11 +48,10 @@
   font-weight: 400;
   line-height: 0.1;
   color: $textColor !important;
-
 }
 
-.greeting-text-title{
-  font-size:32px ;
+.greeting-text-title {
+  font-size: 32px;
 }
 
 .greeting-text-p {
@@ -129,22 +127,18 @@
   }
 }
 
-.greeting-text-div{
+.greeting-text-div {
   position: relative;
   width: 80%;
   margin-right: 33%;
-
-
 }
 
-
-.greeting-text-holder{
+.greeting-text-holder {
   position: center;
   padding: 30px;
   line-height: 10px;
   max-width: 600px;
   text-align: left !important;
-
 }
 @media (max-width: 320px) {
   .main {

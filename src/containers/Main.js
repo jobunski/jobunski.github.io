@@ -28,7 +28,7 @@ const Main = () => {
         <Contact />
         <div className="social-group">
           <div className="social-group-list">
-            <SocialMedia/>
+            <SocialMedia />
           </div>
         </div>
       </StyleProvider>

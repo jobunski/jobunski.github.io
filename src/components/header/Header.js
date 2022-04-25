@@ -18,9 +18,9 @@ function Header() {
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
 
-  const [small, setSmall] = useState(false)
-  if (typeof window !== 'undefined'){
-    window.addEventListener('scroll',() =>{})
+  const [small, setSmall] = useState(false);
+  if (typeof window !== "undefined") {
+    window.addEventListener("scroll", () => {});
   }
 
   return (
@@ -50,9 +50,7 @@ function Header() {
               <a href="#contact">Contact</a>
             </li>
           )}
-          <li>
-
-          </li>
+          <li></li>
         </ul>
       </header>
     </Headroom>

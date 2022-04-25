@@ -1,8 +1,8 @@
 import React from "react";
 import {buildStyles, CircularProgressbar} from "react-circular-progressbar";
-import 'react-circular-progressbar/dist/styles.css';
+import "react-circular-progressbar/dist/styles.css";
 import "./Progress.scss";
-import "../Main.scss"
+import "../Main.scss";
 import {techStack} from "../../portfolio";
 import {Fade} from "react-reveal";
 
@@ -16,17 +16,21 @@ export default function StackProgress() {
             <div className="skill-cards-div">
               {techStack.experience.map((exp, i) => {
                 return (
-                    <div key={i} className="skill-circular-progress">
-                      <div>
-                        <CircularProgressbar  value={exp.progressPercentage} text={`${exp.progressPercentage}%`} styles={buildStyles(
-                            {
-                              pathColor: '#feb653',
-                              textColor: '#ffffff'
-                            }
-                        )} />
-                        <h5 className="text-transform text-center ">{exp.Stack}</h5>
-                      </div>
+                  <div key={i} className="skill-circular-progress">
+                    <div>
+                      <CircularProgressbar
+                        value={exp.progressPercentage}
+                        text={`${exp.progressPercentage}%`}
+                        styles={buildStyles({
+                          pathColor: "#feb653",
+                          textColor: "#ffffff"
+                        })}
+                      />
+                      <h5 className="text-transform text-center ">
+                        {exp.Stack}
+                      </h5>
                     </div>
+                  </div>
                 );
               })}
             </div>

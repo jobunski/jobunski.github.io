@@ -12,10 +12,12 @@ const illustration = {
 
 const greeting = {
   username: "Job Onyango",
-  start:"Hi There!",
+  start: "Hi There!",
   title: "I'm Job Owino",
-  subTitle: "I am a Nairobi based Software Engineer passionate about making human life simpler using software",
-  resumeLink: "https://drive.google.com/file/d/1KLv307GWEvtgfeRVBTwzTftB5wD3oIWB/view?usp=sharing", // Set to empty to hide the button
+  subTitle:
+    "I am a Nairobi based Software Engineer passionate about making human life simpler using software",
+  resumeLink:
+    "https://drive.google.com/file/d/1KLv307GWEvtgfeRVBTwzTftB5wD3oIWB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -25,7 +27,8 @@ const socialMediaLinks = {
   github: "https://github.com/jobunski",
   linkedin: "https://www.linkedin.com/in/job-onyango-owino/",
   gmail: "jonyango003@gmail.com",
-  spotify:"https://open.spotify.com/user/nkt3snih6lprtuywuh48dnbzp?si=oD6DBIOeQ1iOQylz7JRYHA&utm_source=copy-link",
+  spotify:
+    "https://open.spotify.com/user/nkt3snih6lprtuywuh48dnbzp?si=oD6DBIOeQ1iOQylz7JRYHA&utm_source=copy-link",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -196,7 +199,7 @@ const workExperiences = {
       date: "Feb 2022 – Present",
       desc: "Working on Integrations to the M-PESA Financial Service Ecosystem.",
       descBullets: [
-        "Create services that allow connectivity among M-Pesa Ecosystem and its partners",
+        "Create services that allow connectivity among M-Pesa Ecosystem and its partners"
       ],
       education: false
     },
@@ -207,7 +210,7 @@ const workExperiences = {
       desc: "Built and Maintained the M-pesa Business BillManager Platform.",
       descBullets: [
         "Successfully created a CICD pipeline that significantly reduced deployment to production from 1 hr to 10min",
-        "Optimized system and fix bugs",
+        "Optimized system and fix bugs"
       ],
       education: false
     },
@@ -216,9 +219,7 @@ const workExperiences = {
       company: "Skylab Systems",
       date: "Jan 2020 - Jan 2021",
       desc: "Built and Maintained  Apptivate System.",
-      descBullets: [
-        "Optimized system and fix bugs",
-      ],
+      descBullets: ["Optimized system and fix bugs"],
       education: false
     },
     {
@@ -467,7 +468,8 @@ const podcastSection = {
 
 const contactInfo = {
   title: "Get In Touch",
-  subtitle: "Dev-Portfolio Fin. Thanks for reaching in my email section.If you are not interested in the nearest bit checkout my well curated playlist. All opinions are mine."
+  subtitle:
+    "Dev-Portfolio Fin. Thanks for reaching in my email section.If you are not interested in the nearest bit checkout my well curated playlist. All opinions are mine."
 };
 
 // Twitter Section

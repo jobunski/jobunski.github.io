@@ -6,13 +6,13 @@
   transition: "0.1s";
 }
 
-.div-body{
+.div-body {
   width: auto;
   position: relative;
   overflow-x: hidden;
 }
 
-.social-group{
+.social-group {
   width: 40px;
   height: 50%;
   position: fixed;
@@ -22,7 +22,7 @@
   z-index: 10;
 }
 
-.social-group-list{
+.social-group-list {
   display: flex;
   flex-direction: column;
   -moz-box-align: center;
@@ -32,7 +32,7 @@
   list-style: none;
 }
 
-.social-group-list::after{
+.social-group-list::after {
   content: "";
   display: block;
   width: 1px;
